@@ -13,7 +13,20 @@
 
 
 int main()
-{
-    return 0;
+{	//Variable Declaration
+	int iNumber;
+	
+	//Input
+	printf("Enter a postive nonzero integer between 1-100>\n");
+	scanf("%d", iNumber);
+	
+	//Output
+	printf("Value is a prime number");
+	printf("Value is not a prime number");
+	printf("Error: Invalid value");
+	
+	//Calculations
+    
+	return 0;
 }
 
