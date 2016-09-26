@@ -19,7 +19,7 @@ int main()
 	//Input
 	printf("Enter a postive nonzero integer between 1-100>\n");
 	scanf("%d", &iNumber);
-	while (iNumber == 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97) {
+	if (iNumber == 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97) {
 		printf("Value is a prime number");
 
 	}
@@ -29,7 +29,8 @@ int main()
 		 55, 56, 57, 58, 60, 62, 63, 64, 65, 66, 68, 69, 70, 72, 74, 75, 76, 77,
 		 78, 80, 81, 82, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 98, 99, 100;
 	 printf("Value is not a prime number");
-	 iNumber <= 0, >=100;
+	 iNumber <= 0;
+	 iNumber >=100;
 	 printf("Error: Invalid value");
  }
 	return 0;
