@@ -14,19 +14,25 @@
 
 int main()
 {	//Variable Declaration
-	int iNumber;
-	
+	int iNumber, iPrime;
+	iPrime = 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97;
+
 	//Input
 	printf("Enter a postive nonzero integer between 1-100>\n");
-	scanf("%d", iNumber);
-	
-	//Output
-	printf("Value is a prime number");
-	printf("Value is not a prime number");
-	printf("Error: Invalid value");
-	
-	//Calculations
-    
+	scanf("%d", &iNumber);
+	while (iNumber != 0) {
+		iPrime = iNumber / 1;
+		printf("Value is a prime number");
+
+	}
+ else {
+
+	 //Output
+	 printf("Value is not a prime number");
+	 printf("Error: Invalid value");
+
+	 //Calculations
+ }
 	return 0;
 }
 
