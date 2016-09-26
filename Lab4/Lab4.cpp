@@ -25,15 +25,19 @@ int main()
 			32, 33, 34, 35, 36, 38, 39, 40, 42, 44, 45, 46, 48, 49, 50, 51, 52, 54,
 			55, 56, 57, 58, 60, 62, 63, 64, 65, 66, 68, 69, 70, 72, 74, 75, 76, 77,
 			78, 80, 81, 82, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 98, 99, 100) {
-			printf("Value is not a prime number");
+			passed = true
+				printf("Value is not a prime number");
 		}
-		
- else { 
-	 
-	 iNumber <= 0;
-	 iNumber >=100;
-	 printf("Error: Invalid value");
- }
+		else {
+			passed = false
+				iNumber <= 0;
+			iNumber >= 100;
+			printf("Error: Invalid value");
+		}
+		printf("Enter a postive nonzero integer between 1-100>\n");
+		scanf("%d", &iNumber);
+	}
+}
 	return 0;
 }
 
